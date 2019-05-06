@@ -72,8 +72,8 @@ module.exports = class extends Generator {
     // copyTpl 允许使用 EJS 模板引擎替换内容
     this.fs.copyTpl(
       this.templatePath('index.html'),
-      this.destinationPath('index.html'),
-      { title: 'Templating with Yeoman' }
+      this.destinationPath('index.html')
+ /*      { title: 'Templating with Yeoman' } */
     );
 
     /* 拷贝所需的文件. */
