@@ -68,10 +68,20 @@ module.exports = class extends Generator {
 
     // 创建 dist 空目录.
     fs.mkdirSync('dist');
+    // 拷贝入口页.
+    // copyTpl 允许使用 EJS 模板引擎替换内容
+    /* this.fs.copyTpl(
+      this.templatePath('index.html'),
+      this.destinationPath('index.html'),
+      { title: 'Templating with Yeoman' }
+    ); */
 
     /* 拷贝所需的文件. */
-
     this.fs.copy(
+      this.templatePath("web"),
+      this.destinationPath("web")
+    );
+    /* this.fs.copy(
       this.templatePath("build"),
       this.destinationPath("build")
     );
@@ -155,15 +165,7 @@ module.exports = class extends Generator {
     this.fs.copy(
       this.templatePath("平台开发.txt"),
       this.destinationPath("平台开发.txt")
-    );
-
-    // 拷贝入口页.
-    // copyTpl 允许使用 EJS 模板引擎替换内容
-    this.fs.copyTpl(
-      this.templatePath('index.html'),
-      this.destinationPath('index.html'),
-      { title: 'Templating with Yeoman' }
-    );
+    ); */
 
   }
 

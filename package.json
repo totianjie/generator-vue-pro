@@ -1,6 +1,6 @@
 {
   "name": "generator-vue-webpro",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "vue WEB 项目包含基本：vue2.0 + vue-router + store + webpack3.x + ES2015 + element-ui",
   "main": "index.js",
   "scripts": {
