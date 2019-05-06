@@ -74,7 +74,7 @@ module.exports = class extends Generator {
 //       this.templatePath('index.html'),
 //       this.destinationPath('index.html')
 //  /*      { title: 'Templating with Yeoman' } */
-//     );
+//     ); // 因index.html中使用了 <%= htmlWebpackPlugin.options.styles %>这种 ejs语法，在拷贝过程中会报错，所有改为this.fs.copy();
 
     /* 拷贝所需的文件. */
     this.fs.copy(
