@@ -1,8 +1,0 @@
-build/*.js
-config/*.js
-node_modules/*.js
-static/js/*.js
-static/plugins/*.js
-src/js/utils/*.js
-src/js/api/*.js
-src/filters/*.js

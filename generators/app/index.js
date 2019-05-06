@@ -93,22 +93,22 @@ module.exports = class extends Generator {
     );
 
     this.fs.copy(
-      this.templatePath(".babelrc"),
+      this.templatePath("temp_babelrc"),
       this.destinationPath(".babelrc")
     );
 
     this.fs.copy(
-      this.templatePath(".editorconfig"),
+      this.templatePath("temp_editorconfig"),
       this.destinationPath(".editorconfig")
     );
 
     this.fs.copy(
-      this.templatePath(".eslintignore"),
+      this.templatePath("temp_eslintignore"),
       this.destinationPath(".eslintignore")
     );
 
     this.fs.copy(
-      this.templatePath(".eslintrc.js"),
+      this.templatePath("temp_eslintrc.js"),
       this.destinationPath(".eslintrc.js")
     );
 
@@ -118,12 +118,12 @@ module.exports = class extends Generator {
     );
 
     this.fs.copy(
-      this.templatePath(".gitignore"),
+      this.templatePath("temp_gitignore"),
       this.destinationPath(".gitignore")
     );
 
     this.fs.copy(
-      this.templatePath(".postcssrc.js"),
+      this.templatePath("temp_postcssrc.js"),
       this.destinationPath(".postcssrc.js")
     );
 
