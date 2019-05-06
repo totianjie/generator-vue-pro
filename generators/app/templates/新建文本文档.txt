@@ -1,0 +1,17 @@
+自己分支开发
+git add .
+git commit -m ""
+
+切换到dev
+git checkout devlopment
+git pull --ff
+
+把主分支合并到自己
+git rebase devlopment dsx
+git checkout devlopment
+
+把自己合并到主分支
+git merge dsx
+git push origin devlopment
+切换到自己
+git checkout dsx

@@ -1,0 +1,96 @@
+/**
+ *  Created by Nelson on 2019/04/16
+ * */
+import CONFIG from 'src/config';
+const columnDev = [{
+    prop: 'a1',
+    name: '规则分类',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth
+}, {
+    prop: 'a2',
+    name: '规则名称',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth
+}, {
+    prop: 'a3',
+    name: '创建人',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth,
+    width: null
+}, {
+    prop: 'a4',
+    name: '创建时间',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth
+}, {
+    prop: 'a5',
+    name: '更新人',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth
+}, {
+    prop: 'a6',
+    name: '更新时间',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth
+}];
+const columnMed = [{
+    prop: 'b1',
+    name: '规则分类',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth
+}, {
+    prop: 'b2',
+    name: '规则名称',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth
+}, {
+    prop: 'b3',
+    name: '地区',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth,
+    width: null
+}, {
+    prop: 'b4',
+    name: '医疗类别',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth
+}, {
+    prop: 'b5',
+    name: '监管阶段',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth,
+    width: null
+}, {
+    prop: 'b6',
+    name: '违规等级',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth,
+    width: null
+}, {
+    prop: 'b7',
+    name: '创建人',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth
+}, {
+    prop: 'b8',
+    name: '创建时间',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth
+}, {
+    prop: 'b9',
+    name: '更新人',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth
+}, {
+    prop: 'b10',
+    name: '更新时间',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth
+}, {
+    prop: 'b11',
+    name: '备注',
+    showToolTip: true,
+    minWidth: CONFIG.colWidth
+}];
+export default {columnDev, columnMed};

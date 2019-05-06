@@ -1,0 +1,57 @@
+.el-form-item, .el-form-item--mini.el-form-item, .el-form-item--small.el-form-item {
+    margin-bottom: 16px;
+}
+
+.el-radio + .el-radio {
+    margin: 0;
+}
+
+.el-checkbox + .el-checkbox {
+    margin: 0;
+}
+
+/*// 表格相关*/
+.el-table {
+    font-size: 14px;
+    border-top: 1px solid #DAEFFF;
+}
+
+/*// 表格单元格高度*/
+.el-table td {
+    padding: 14px 0;
+    border-color: #DAEFFF;
+    color: #666;
+}
+
+.el-table th {
+    padding: 12px 0;
+    border-color: #DAEFFF;
+    font-weight: 100;
+    color: #333;
+}
+
+/*//normal*/
+.el-table .cell {
+    line-height: normal;
+}
+
+/*// 重置表格里面的按钮padding*/
+.el-table .el-button--text {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*// 表格隔行变色*/
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+    background-color: #F9FDFF;
+}
+
+.el-button--text {
+    color: #0096FF;
+    font-size: 14px;
+}
+
+/* // 表间checkbox 行高调整 */
+.el-form-item__content {
+    line-height: 100%;
+}

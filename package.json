@@ -1,0 +1,28 @@
+{
+  "name": "generator-vue-pro",
+  "version": "1.0.0",
+  "description": "vue WEB 项目包含基本：vue2.0 + vue-router + store + webpack3.x + ES2015 + element-ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:totianjie/generator-vue-pro.git"
+  },
+  "homepage": "https://github.com/totianjie/generator-vue-pro",
+  "bugs": {
+    "url": "https://github.com/totianjie/generator-vue-pro/issues"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Eded.Wang",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  }
+}

@@ -1,0 +1,94 @@
+@mixin placeCenter { // eg: @include placeCenter;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+@mixin clearfix() {
+    *zoom: 1;
+    //overflow:visible;
+    &:before,
+    &:after {
+        //content: " "; // 1
+        //content: '.'; // 1
+        content: '\200B'; // 1
+        //display: table; // 2
+        display: block; // 2
+        height: 0;
+        visibility: hidden;
+    }
+    &:after {
+        clear: both;
+    }
+}
+// Opacity
+@mixin opacity($opacity) {
+    opacity: $opacity;
+    // IE8 filter
+    $opacity-ie: ($opacity * 100);
+    filter: #{alpha(opacity=$opacity-ie)};
+}
+@mixin text-overflow() {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+@mixin float ($float) {
+    float: $float
+}
+// placeholder
+@mixin placeholder-color($color) {
+    &::-webkit-input-placeholder {/* WebKit browsers */
+        color:$color;
+    }
+    &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color:$color;
+    }
+    &::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color:$color;
+    }
+    &:-ms-input-placeholder { /* Internet Explorer 10+ */
+        color:$color;
+    }
+}
+@mixin inputColor($color){
+    input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+        　　color: $color;
+    }
+    input:-moz-placeholder, textarea:-moz-placeholder {
+        　　color:$color;
+    }
+    input::-moz-placeholder, textarea::-moz-placeholder {
+        　　color:$color;
+    }
+    input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+        　　color:$color;
+    }
+}
+@mixin align{
+    -webkit-box-align:center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    -o-box-align: center;
+    box-align: center;
+}
+@mixin box-sizing{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@mixin position($direction){
+    position:$direction;
+}
+@mixin height($height){
+    height:$height;
+}
+@mixin overflow{
+    overflow:hidden;
+}
+@mixin text-align($center){
+    text-align:$center;
+}

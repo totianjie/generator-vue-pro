@@ -1,0 +1,58 @@
+/**
+    存放变量
+*/
+$base-height: 100%;
+$base-width: 100%;
+
+$base-color: #4579C5 !default;
+// 默认body背景
+$body-bg: #F3F3F3 !default;
+
+// 字体相关
+$font-size-base: 12px !default; // ~
+$font-size-large: 14px !default; // ~
+$font-size-small: 10px !default; // ~
+$font-size-24: 24px;
+
+$font-size-h1: 20px !default;
+$font-size-h2: 18px !default;
+$font-size-h3: 16px !default;
+$font-size-h4: 14px !default;
+$font-size-h5: $font-size-base !default;
+$font-size-h6: 10px !default;
+// 默认文字颜色
+$font-color: #9FAFCB !default;
+
+// 默认margin
+$margin-base: 10px !default;
+
+// 默认padding
+$padding-base: 10px !default;
+
+// 按钮
+$btn-default-color: #000 !default;
+$btn-default-bg: #000 !default;
+$btn-default-border: #000 !default;
+
+// 表格
+$table-bg: #000 !default;
+$table-head-bg: #000 !default;
+$table-foot-bg: #000 !default;
+$table-hover-bg: #000 !default;
+$table-active-bg: #000 !default;
+
+/** 菜单及顶部navlist的配制 start */
+$default-menu-bg: #324961 !default;
+$default-menu-active-bg: #273F59 !default;
+$default-menu-active-font-color: #fff !default;
+$default-menu-open-active-font-color: #4579C5 !default;
+
+$default-logo-bg: #4579C5 !default;
+
+$default-nav-bg: #36404A !default;
+$default-nav-active-bg: #4579C5 !default;
+$default-nav-font-color: #333333 !default;
+$default-nav-active-font-color: #fff !default;
+/** 菜单及顶部navlist的配制 end */
+
+$default-table-current-bg: #B9DCFF;

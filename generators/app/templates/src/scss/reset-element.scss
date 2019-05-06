@@ -1,0 +1,108 @@
+@import './variables';
+
+.el-form-item, .el-form-item--mini.el-form-item, .el-form-item--small.el-form-item {
+    margin-bottom: 16px;
+}
+
+.el-radio + .el-radio {
+    margin: 0;
+}
+
+.el-checkbox + .el-checkbox {
+    margin: 0;
+}
+
+/*// 表格相关*/
+.el-table {
+    font-size: 12px;
+    border-top: 1px solid #DAEFFF;
+}
+
+/*// 表格单元格高度*/
+.el-table td {
+    padding: 6px 0;
+    border-color: #DAEFFF;
+    color: #666;
+}
+
+.el-table th {
+    padding: 8px 0;
+    border-color: #DAEFFF;
+    font-weight: 100;
+    color: #333;
+}
+
+.el-table.sort-table th {
+    padding: 0.5px;
+}
+
+/*//normal*/
+.el-table .cell {
+    line-height: normal;
+}
+
+/*// 重置表格里面的按钮padding*/
+.el-table .el-button--text {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*// 表格隔行变色*/
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+    background-color: #F9FDFF;
+}
+
+/** 表格点击高亮颜色 */
+.el-table .el-table__body tr.el-table__row--striped.current-row td,
+.el-table__body tr.current-row > td,
+.el-table__body tr.hover-row.current-row > td,
+.el-table__body tr.hover-row.el-table__row--striped.current-row > td,
+.el-table__body tr.hover-row.el-table__row--striped > td,
+.el-table__body tr.hover-row > td {
+    background-color: $default-table-current-bg;
+}
+
+/** 表格移入颜色 */
+.el-table--enable-row-hover .el-table__body tr:hover > td {
+    background-color: $default-table-current-bg;
+}
+
+.el-button--text {
+    color: #0096FF;
+    font-size: 14px;
+}
+
+/* // 表间checkbox 行高调整 */
+.el-form-item__content {
+    line-height: 100%;
+}
+
+/* 处理日期选择器超出父级被隐藏的问题 */
+.el-cascader, .el-date-editor--daterange.el-input, .el-date-editor--daterange.el-input__inner, .el-date-editor--timerange.el-input, .el-date-editor--timerange.el-input__inner {
+    width: 100%;
+}
+
+/* 全局修改tips宽度 */
+.el-tooltip__popper {
+    max-width: 80%;
+    word-break: break-all;
+}
+
+/* 查询/申报进度查询     修改tips宽度 */
+.el-tooltip__popper.noneMaxWidth {
+    max-width: none;
+}
+
+/* 重置tabs默认41高度为32 */
+.el-tabs__item {
+    height: 32px;
+    line-height: 32px;
+}
+
+.el-tabs--card > .el-tabs__header .el-tabs__nav {
+    border-radius: 0;
+}
+
+.el-tabs__header {
+    margin-bottom: 0;
+}
