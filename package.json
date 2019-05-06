@@ -1,5 +1,5 @@
 {
-  "name": "generator-vue-pro",
+  "name": "generator-vue-webpro",
   "version": "1.0.0",
   "description": "vue WEB 项目包含基本：vue2.0 + vue-router + store + webpack3.x + ES2015 + element-ui",
   "main": "index.js",
@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:totianjie/generator-vue-pro.git"
+    "url": "git@github.com:totianjie/generator-vue-webpro.git"
   },
-  "homepage": "https://github.com/totianjie/generator-vue-pro",
+  "homepage": "https://github.com/totianjie/generator-vue-webpro",
   "bugs": {
-    "url": "https://github.com/totianjie/generator-vue-pro/issues"
+    "url": "https://github.com/totianjie/generator-vue-webpro/issues"
   },
   "files": [
     "generators"
