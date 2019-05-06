@@ -1,4 +1,4 @@
-### Generator ReactWEB Yeoman
+### Generator vue web project Yeoman
 
 ### npm install generator-vue-webpro -g
 
